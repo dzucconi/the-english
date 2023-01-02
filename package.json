@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "an-array-of-english-words": "^2.0.0",
-    "frame-interval": "^1.0.47"
+    "date-fns": "^2.29.3"
   }
 }

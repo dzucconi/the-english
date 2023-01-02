@@ -2517,6 +2517,11 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
+date-fns@^2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
+
 deasync@^0.1.14:
   version "0.1.20"
   resolved "https://registry.yarnpkg.com/deasync/-/deasync-0.1.20.tgz#546fd2660688a1eeed55edce2308c5cf7104f9da"
@@ -3127,11 +3132,6 @@ fragment-cache@^0.2.1:
   integrity sha1-QpD60n8T6Jvn8zeZxrxaCr//DRk=
   dependencies:
     map-cache "^0.2.2"
-
-frame-interval@^1.0.47:
-  version "1.0.47"
-  resolved "https://registry.yarnpkg.com/frame-interval/-/frame-interval-1.0.47.tgz#a02fc3b2c59065cc54194266d1f2822547aefe77"
-  integrity sha512-LYTH6VMF3NiS15GW6rMd2+mNsnnSpcDSZUyfH0BksL1k4CctWgXoxemftd19BfuQRYna+ly+DN8iFBez2T70aA==
 
 fresh@0.5.2:
   version "0.5.2"

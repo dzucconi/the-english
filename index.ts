@@ -1,9 +1,9 @@
-import { init, EL } from "./init";
+import { init, $EL } from "./init";
 import { info, schedule } from "./schedule";
 
 (() => {
   if (window.location.search.includes("?schedule")) {
-    document.getElementById(EL).innerHTML = `
+    $EL.innerHTML = `
       <p>${info()}</p>
       <p>${schedule()
         .map(({ letter, at }) => {

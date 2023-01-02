@@ -12,13 +12,17 @@ export const time = (dt: number) => {
 
 export const remap = (
   value: number,
-  inputMin: number,
-  inputMax: number,
-  outputMin: number,
-  outputMax: number
+  input: {
+    min: number;
+    max: number;
+  },
+  output: {
+    min: number;
+    max: number;
+  }
 ) => {
   return (
-    outputMin +
-    ((value - inputMin) / (inputMax - inputMin)) * (outputMax - outputMin)
+    output.min +
+    ((value - input.min) / (input.max - input.min)) * (output.max - output.min)
   );
 };
